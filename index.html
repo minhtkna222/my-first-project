@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>iViettech-Trung tâm lập trình viên chuyên nghiệp</title>
+	<link rel="short icon" href="images/short.png">
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<header id="header_top">
+		<div id="top">
+			<div id="top_img">
+				<a href="#"><img class="top_img" src="images/logo.jpg"></a>
+			</div>
+			<div id="top_menu">
+				<ul>
+					<li class="ative defaut"><a href="#">Trang chủ</a></li>
+					<li class="defaut"><a href="#">Các khóa học lập trình</a>
+						<ul class="sub_menu">
+							<li><a class="defaut1" href="#">Chuyên nghiệp</a>
+								<ul class="sub_submenu">
+									<li><a href="#">Lập Trình Android</a></li>
+									<li><a href="#">Lập trình iOS – Swift</a></li>
+									<li><a href="#">Kiểm thử chuyên nghiệp</a></li>
+									<li><a href="#">Lập Trình PHP & MySQL</a></li>
+									<li><a href="#">Lập trình Front End- New</a></li>
+									<li><a href="#">Lập Trình Java từ A-Z</a></li>
+									<li><a href="#">Lập Trình .NET từ A-Z</a></li>
+									<li><a href="#">Lập trình viên chuyên nghiệp</a></li>
+								</ul>
+							</li>
+							<li><a class="defaut1" href="#">Cấp tốc</a>
+								<ul class="sub_submenu">
+									<li><a href="#">Lập trình Java – Cấp tốc</a></li>
+								</ul>
+							</li>
+							<li><a class="defaut1" href="#">Các khóa khác</a>
+								<ul class="sub_submenu">
+									<li><a href="#">Lập trình cơ bản</a></li>
+									<li><a href="#">Thiết kế đồ họa</a></li>
+									<li><a href="#">Thiết kế Web</a></li>
+								</ul>
+								<!-- Lập trình cơ bảnThiết kế đồ họaThiết kế Web -->
+							</li>
+						</ul>
+					</li>
+					<li class="defaut"><a href="#">Đăng ký học</a></li>
+					<li class="defaut"><a href="#">Việc làm</a></li>
+					<li class="defaut"><a href="#">iViettech</a></li>
+					<li class="defaut"><a href="#">Trang vàng HV</a></li>
+					<li class="defaut"><a href="#">Blog</a></li>
+				</ul>
+			</div>
+			<div id="top_input">
+				<img onclick="myFunction()" src="images/search.png" alt="">
+				
+				<form id="demo" class="search_input" name="click">
+					<input type="search" placeholder="Nhập thông tin cần tìm...">
+					<button>Tìm kiếm</button>
+				</form>
+				<script>
+					function myFunction() {
+					    var x=document.getElementById("demo");
+					    if(x.style.display==='none'){
+					    	x.style.display = 'block';
+					    }
+					    else{
+					    	x.style.display='none';
+					    }
+					}
+				</script>
+			</div>
+		</div>
+		
+	</header>
+	<!-- Phan Menu -->
+	<main id="menu">
+		<div id="slider">
+				<img src="images/2.jpg" alt="">
+		</div>
+
+		<div id="wapper">
+			<div id="forms">
+				<form action="post">
+					<fieldset id="register">
+						<img src="images/pen.png" alt="">
+						<h2>ĐĂNG KÝ HỌC</h2>
+						<input type="text" placeholder="Họ và tên"><br>
+						<input type="text" placeholder="Email"><br>
+						<input type="text" placeholder="Điện thoại">
+						<input id="option" list="option" type="text">
+						<input id="list" disabled="off" placeholder="Chọn khóa học" size="4" name="browser">
+						<input type="text" placeholder="Lời nhắn của bạn"><br>
+						<input class="submit" type="submit" value="ĐĂNG KÝ HỌC">
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="list_learn">
+				<div id="title_list">
+					<img src="images/mu.png" alt="">
+					<h2>CHƯƠNG TRÌNH ĐÀO TẠO</h2>
+					<a href=""><img src="images/pre.png" alt=""></a>
+					<a href=""><img src="images/next.png" alt=""></a>
+					<img id="title_img" src="images/bg-lines.png" alt="">
+				</div>
+
+				<div id="content_list">
+					<div class="sub_content">
+						<a href="#">
+							<img src="images/java.png" alt="">
+							<h3>Lập Trình Java Cấp Tốc</h3>
+						</a>
+						<span>
+							Thời gian:16 tuần   <br> 
+							Suất học: Sáng từ thứ 2-7	    
+						</span>
+					</div>
+					<div class="sub_content">
+						<a href="#">
+							<img src="images/ios_logo.jpg" alt="">
+							<h3>Lập Trình Ios-Swift</h3>
+						</a>
+						<span>
+							Thời gian: 4 tháng   <br> 
+							Suất học: Tối 2-4-6	    
+						</span>
+					</div>
+					<div class="sub_content">
+						<a href="#">
+							<img src="images/php_logo.jpg" alt="">
+							<h3>Lập Trình PHP & MySQL</h3>
+						</a>
+						<span>
+							Thời gian: 5 tháng   <br> 
+							Suất học: Tối 3-5-7	    
+						</span>
+					</div>
+					<div class="sub_content">
+						<a href="#">
+							<img src="images/android_logo.jpg" alt="">
+							<h3>Lập Trình Android</h3>
+						</a>
+						<span>
+							Thời gian: 4 tháng   <br> 
+							Suất học: Tối 3-5-7	    
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Phan aside -->
+	<aside id="aside">
+		<div id="intro_contact">
+			<div class="child" id="intro_img">
+				<a href="#"><img class="child_img" src="images/img-intro.jpg" alt=""></a>
+			</div>
+			
+			<div id="intro">
+				<div id="sub_intro">
+					<div class="sub_img">
+						<a href="#"><img src="images/logo.jpg" alt=""></a>
+					</div>
+					<h1>Giới Thiệu !</h1>
+					<span>
+						Trải qua nhiều năm làm việc trong ngành phần mềm, hiểu được thực trạng nhu cầu nhân lực của ngành, nhóm chuyên gia trong ngành đã thành lập Trung tâm đào tạo Lập trình viên chuyên nghiệp iVietTech với mong muốn thu hẹp khoảng cách giữa nhà trường và doanh nghiệp, tạo cơ hội việc làm cho các bạn trẻ đã, đang và sẽ theo học ngành CNTT.
+					</span>
+					<input type="submit" value="Xem thêm">
+				</div>
+			</div>
+
+			<div id="contact">
+				<div id="sub_contact1">
+					<img src="images/contact.png" alt="">
+					<a href="#"><h1>Kết nối với chúng tôi</h1></a>
+				</div>
+				<div id="sub_contact2">
+					<a href="">
+						<img src="images/iviet.jpg" alt="">
+					</a>	
+					<span>
+						<a href=""><h1>IViettech - Trung tâm...</h1></a>
+						<p>8.313 lượt thích	</p>
+					</span>
+					<div class="clr"></div>
+					<input type="submit" value="Đã thích">
+					<input type="submit" value="Tìm hiểu thêm">
+				</div>
+
+				<div id="friend">
+					<div id="sub_friend">
+						<p>Bạn và 2 người khác thích điều này</p>
+						<img src="images/minh.jpg" alt="">
+						<img src="images/thien.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<div class="clr"></div>
+	<!-- section -->
+	<section id="section1">
+		<div id="sub_section1">
+			<div id="calendar">
+
+				<div class="sec_title">
+						<img src="images/calen.png" alt="">
+						<a href=""><h2>LỊCH KHAI GIẢNG</h2></a>
+						<div class="sub_sec">
+							<a href=""><img src="images/next.png" alt=""></a>
+							<a href=""><img src="images/pre.png" alt=""></a>
+						</div>
+					<img id="sec_img" src="images/bg-lines.png" alt="">
+				</div>
+
+				<div id="list_item">
+					<div class="item">
+						<a href="#"><img src="images/php_logo.jpg" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Lập trình web với PHP & MySQL</a><br>
+							<span>
+								Ngày khai giảng: 30/10/2018 <br>
+								Lịch học: Tối: 3-5-7
+							</span>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#"><img src="images/c_logo.png" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Lập trình cơ bản với C</a><br>
+							<span>
+								Ngày khai giảng: 29/10/2018<br>	
+								Lịch học: Tối: 2-4-6
+							</span>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#"><img src="images/Java_logo.jpg" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Lập trình Java từ A-Z</a><br>
+							<span>
+								Ngày khai giảng: 06/11/2018<br>
+								Lịch học: Tối: 3-5-7
+							</span>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#"><img src="images/LTVCN-Logo.jpg" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Lập trình viên chuyên nghiệp</a><br>
+							<span>
+								Ngày khai giảng: 10/10/2018<br>
+								Lịch học: Tối 2-4-6
+							</span>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#"><img src="images/tester_logo.jpg" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Kiểm thử chuyên nghiệp</a><br>
+							<span>
+								Ngày khai giảng: 09/10/2018<br>
+								Lịch học: Tối 3-5-7
+							</span>
+						</div>
+					</div>
+					<div class="item">
+						<a href="#"><img src="images/ios_logo.jpg" alt=""></a>
+						<div class="sub_item">
+							<a href="#">Lập trình iOS – Swift</a><br>
+							<span>
+								Ngày khai giảng: 28/09/2018<br>
+								Lịch học: Tối 2-4-6
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="courses">
+				<div class="sec_title">
+					<a href="#">
+						<img src="images/cour.png" alt="">
+						<h2>CÁC KHÓA HỌC</h2>
+					</a>
+					<img id="sec_img" src="images/bg-lines.png" alt="">
+				</div>
+				<div id="list_cour_item">
+					<div class="cour_item">
+						<a href="#"><img src="images/c_logo.png" alt=""></a>
+						<div class="sub_cour_item">
+							<a href="#">Lập trình cơ bản</a><br>
+							<span>
+								Ngày khai giảng: 29-10-2018<br>
+								Thời gian: 1 tháng<br>
+								Suất học: Tối: 2-4-6
+							</span>
+						</div>
+					</div>
+					<div class="cour_item">
+						<a href="#"><img src="images/tkw.png" alt=""></a>
+						<div class="sub_cour_item">
+							<a href="#">Thiết kế Web</a><br>
+							<span>
+								Ngày khai giảng: 30-10-2018<br>
+								Thời gian: 6 tháng<br>
+								Suất học: Tối 3-5-7
+							</span>
+						</div>
+					</div>
+					<div class="cour_item">
+						<a href="#"><img src="images/tkdh.png" alt=""></a>
+						<div class="sub_cour_item">
+							<a href="#">Thiết kế đồ họa</a><br>
+							<span>
+								Ngày khai giảng: 12-11-2018<br>
+								Thời gian: 1 tháng<br>
+								Suất học: Tối 2-4-6
+							</span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section id="section2">
+		<div id="sub_section2">
+			<div id="infomation_left">
+				<div class="news">
+					<div class="new_title">
+						<a href="#">
+							<img src="images/news.png" alt="">
+							<h2>Tin Tức & Sự Kiện</h2>
+							<p>Tin Tức Chuyên Ngành</p>
+						</a>
+					</div>
+					<div class="new_content">
+						<a href="#"><img src="images/2-2.jpg" alt=""></a>
+						<h2>KHAI GIẢNG LẬP TRÌNH VIÊN CHUYÊN NGHIỆP PR23</h2>
+						<p class="chang_color">
+							<img class="icon_clock" src="images/clock.png" alt="">
+							Tuesday, 16/10/2018
+						</p>
+						<p>
+							🔥 Khai<br> giảng: #Lập_trình_viên_chuyên_nghiệp PR23 📌 Ngày 10/10/2018 vừa qua – iViettech đã chính thức khai giảng lớp Lập trình viên chuyên nghiệp PR23 💻 Đây là khóa học đầy đủ nhất về lập...
+						</p>
+					</div>
+					<input type="submit" name="" id="" value="Xem thêm">
+				</div>
+
+				<div class="clr"></div>
+
+				<div class="news">
+					<div class="sub_new_title">
+						<a href="#">
+							<h2>Tin Tức Đã Đưa</h2>
+						</a>
+					</div>
+					<div class="new_content">
+						<div id="new_content_left">
+							<a href="#"><img src="images/2-2.jpg" alt=""></a>
+							<div class="sub_new">
+								<p>
+									<a href="#">Kiểm thử phần mềm ST21: Học chính thức 09/10/2018</a>
+								</p>
+								<p class="chang_color">
+									<img class="icon_clock" src="images/clock.png" alt="">
+									Wednesday, 03/10/2018
+								</p>
+							</div>
+						</div>
+
+						<div id="new_content_right">
+							<a href="#"><img src="images/fbi.jpg" alt=""></a>
+							<p>
+								<a href="#">FBI mở khóa iPhone của đối tượng tình nghi nhờ sử dụng FaceID</a>
+							</p>
+							<p class="chang_color">
+								<img class="icon_clock" src="images/clock.png" alt="">
+								Wednesday, 03/10/2018
+							</p>
+						</div>
+						
+					</div>
+				</div>
+				<div class="clr"></div>
+				<div class="news">
+					<div class="sub_new_title">
+						<a href="#">
+							<h2>Học Viên Nói Về Trung Tâm !</h2>
+						</a>
+					</div>
+					<div id="student">
+						<div id="demo">
+							<div class="demo_img">
+								<img src="images/ongoi.jpg">
+							</div>
+							<div class="demo_content">
+								<img class="content_img" src="images/dub_quoc1.png">
+								<p class="reply_content">
+									Mình vừa hoàn thành xong khóa Frontend Web Developer của trung tâm IVIETTECH. Mình cảm thấy kiến thức và công nghệ mà trung tâm dạy rất mới, phù hợp với xu thế hiện nay. Sau khi tốt nghiệp, được trung tâm hỗ trợ tìm việc thì hôm nay mình đã được Công ty Toàn Cầu Xanh nhận vào vị trí FrontEnd developer. Cám ơn trung tâm và các thầy rất nhiều, mong rằng trung tâm sẽ ngày càng phát triển
+								</p>
+								
+									
+								<div class="filed">
+									<p>
+									Bạn <b style="color: blue">NGUYỄN HỮU HOÀNG PHONG – KHÓA LẬP TRÌNH FRONTEND – 016362976XX</b>
+									</p>
+
+									<p>
+										FrontEnd Developer - Green Global
+									</p>
+								</div>
+								<img class="content_img2" src="images/dub_quoc.png">
+							</div>
+						</div>
+						<div class="clr"></div>
+						<div id="group_student">
+							<div class="sub_student"><a href="#"><img id="reply" src="images/thien.jpg"></a></div>
+							<div class="sub_student"><a href="#"><img id="reply" src="images/nana.jpg"></a></div>
+							<div class="sub_student"><a href="#"><img id="reply" src="images/ongoi.jpg"></a></div>
+							<div class="sub_student"><a href="#"><img id="reply" src="images/cong.jpg"></a></div>
+							<div class="sub_student"><a href="#"><img id="reply" src="images/minh.jpg"></a></div>
+							<div class="sub_student"><a href="#"><img id="reply" src="images/thien.jpg"></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- infomation_right -->
+			<div id="infomation_right">
+				<div class="news">
+					<div class="new_title">
+						<a href="#">
+							<img src="images/news.png" alt="">
+							<h2>Tin Tuyển Dụng</h2>
+							<p>Việc Tìm Người - Người Tìm Việc</p>
+						</a>
+					</div>
+
+					<div id="sub_infomation">
+						<a href="#"><img src="images/vieclam4.jpg"></a>
+						<div class="content_info">
+							<p>
+								<label>Công ty : FRAM</label><br>
+								<a href="#">#FRONTEND và NODEJS</a>
+								<img src="images/clock.png">
+								<label class="fram">Thursday, 18/10/201</label>
+							</p>
+						</div>
+					</div>
+
+					<div id="sub_infomation">
+						<a href="#"><img src="images/vieclam7.jpg"></a>
+						<div class="content_info">
+							<p>
+								<label>Công ty : GLOBAL DESIGN IT CO., LTD</label><br>
+								<a href="#">PHP Developer, số lượng: 05 người</a>
+								<img src="images/clock.png">
+								<label class="fram">Thursday, 18/10/201</label>
+							</p>
+						</div>
+					</div>
+
+					<div id="sub_infomation">
+						<a href="#"><img src="images/vieclam5.jpg"></a>
+						<div class="content_info">
+							<p>
+								<label>Công ty : GLOBAL DESIGN IT CO., LTD</label><br>
+								<a href="#">JAVA Developer, số lượng: 10 người</a>
+								<img src="images/clock.png">
+								<label class="fram">Thursday, 18/10/201</label>
+							</p>
+						</div>
+					</div>
+
+					<div id="sub_infomation">
+						<a href="#"><img src="images/vieclam6.jpg"></a>
+						<div class="content_info">
+							<p>
+								<label>Công ty : GLOBAL DESIGN IT CO., LTD</label><br>
+								<a href="#">Kỹ sư .Net, số lượng: 10 người</a>
+								<img src="images/clock.png">
+								<label class="fram">Thursday, 18/10/201</label>
+							</p>
+						</div>
+					</div>
+
+					<div id="sub_infomation">
+						<a href="#"><img src="images/vieclam3.jpg"></a>
+						<div class="content_info">
+							<p>
+								<label>Công ty : Công ty Tinh Vân Outsourcing chi nhánh ĐN</label><br>
+								<a href="#">03 Lập trình viên PHP</a>
+								<img src="images/clock.png">
+								<label class="fram">Thursday, 18/10/201</label>
+							</p>
+						</div>
+					</div>
+
+
+				</div>
+
+				<!-- ------------news------------ -->
+				<div class="news">
+					<div class="sub_new_title">
+						<a href="#">
+							<img src="images/news.png" alt="">
+							<h2>Nhà Tuyển Dụng</h2>
+						</a>
+
+						<div id="employer">
+							<div class="logo_employer">
+								<img src="images/logo_white.png">
+							</div>
+							<div class="sub_employer">
+								<p>
+									<a class="formos" href="#">CÔNG TY PHẦN MỀM FORMOS</a><br>
+									http://formos.com/ About Formos Founded in 2002, Formos delivers SaaS product development, mobile applications, and process management solutions. We have a ...
+								</p>
+							</div>
+						</div>
+
+						<div id="employer">
+							<div class="logo_employer">
+								<img src="images/mozartsoft.png">
+							</div>
+							<div class="sub_employer">
+								<p>
+									<a class="formos" href="#">Công ty TNHH MoziaSoft</a><br>
+									Tên công ty Công ty TNHH MoziaSoft Ngày thành lập 9/2016 Địa chỉ SUNRISE BUILDING số 25 đường 2/9 Đà ...
+								</p>
+							</div>
+						</div>
+
+						<div id="employer">
+							<div class="logo_employer">
+								<img src="images/Naivo.png">
+							</div>
+							<div class="sub_employer">
+								<p>
+									<a class="formos" href="#">NovaIO Tech</a><br>
+									Email: info@novaio.vn http://novaio.vn Liên hệ: 0905 531 717 (Mr Nhi)/ 0936 796 346 (Ms Oanh). Lô B, Tầng 10, Công ...
+								</p>
+							</div>
+						</div>
+
+						<div id="employer">
+							<div class="logo_employer">
+								<img src="images/Blue-Otter.jpg">
+							</div>
+							<div class="sub_employer">
+								<p>
+									<a class="formos" href="#">
+										Công Ty Blue Otter Corporation – Blue Otter Representative Office in Da Nang
+									</a><br>
+									– Lĩnh vực hoạt động: + Bảo đảm chất lượng phần mềm thông qua kiểm tra manual và tự động ...
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- end news -->
+			</div>
+			<!-- end infomation_right -->
+		</div>
+	</section>
+	<div class="clr"></div>
+	<footer id="footer">
+		<div id="sub_footer">
+			<div class="footer_content_left">
+				<p>
+					Địa chỉ : 92 Quang Trung, Q. Hải Châu, TP. Đà Nẵng - Điện thoại : 02363 888 279<br>
+					Email : <a href="#">contact@iviettech.vn</a>
+				</p>
+
+			</div>
+			<div class="footer_content_right">
+				<p>Bản quyền thuộc về <a href="#">iViettech</a></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
